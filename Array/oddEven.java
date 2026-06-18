@@ -9,19 +9,19 @@ public class oddEven {
         int[] arr = new int[n];
         for (int i= 0; i <n ; i++) {
               arr[i] = sc.nextInt();
-            if(i%2!=0){ 
-                arr[i] = 2*arr[i];
-            
+            print(arr);
+            if(i%2 ==1) arr[i] = 2*arr[i];
+            else arr[i] = 10+arr[i];
             }
-            else if(i%2==0) {
-                arr[i] = 10+arr[i];
-            } 
-            for(int val : arr){
-                if (val !=0 )
-                System.out.print(val +" ");
+            print(arr);
+    }
+            public static void print(int[] arr){
+                Scanner sc = new Scanner(System.in);
+                int n = sc.nextInt();
+                for (int i = 0; i < n; i++) {
+                    System.out.println(arr[i]+ " ");
+                }
+                System.out.println(" ");
             }
         }
 
-    }
-        
-}

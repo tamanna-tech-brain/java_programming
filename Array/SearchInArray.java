@@ -12,12 +12,19 @@ public class SearchInArray {
         }
         System.out.print("value of x: ");
         int x = sc.nextInt();
-        boolean found =  false;
+        // int x = -1;
+        boolean flag =  false; //false means target array me nhi hai
         for(int i = 0; i<n; i++){
-            if( x == arr[i]){ System.out.println("yes at index "+ i);
-            found = true;
+            if(arr[i] == x){      
+               System.out.println("yes at index : "+ i);
+            flag = true;  // true means target array me hai  flag is found basically
+            // flag = i;
+            break;
         }
-            else System.out.println("Naa");
         }
+        // if(!flag != -1  ) System.out.println("No"+ found);
+    if(!flag ) System.out.println("No");
+        
     }
 }
+
