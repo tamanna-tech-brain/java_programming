@@ -25,6 +25,8 @@ public class CharDataType13 {
         int z= 65;
         char a = (char)z;
         System.out.println(a);
+        char b = (char)66;
+        System.out.println(b);
 
     }
 

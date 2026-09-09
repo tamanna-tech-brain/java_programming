@@ -10,7 +10,9 @@ public class SumOfNo10 {
         int b = sc.nextInt();
         System.out.print("Enter No c: ");
         int c = sc.nextInt();
-        int sum = a+b+c;
+        System.out.print("Enter No d: ");
+        int d = sc.nextInt();
+        int sum = a+b+c+d;
         System.out.print("sum of No's are: ");
         System.out.println(sum);
 

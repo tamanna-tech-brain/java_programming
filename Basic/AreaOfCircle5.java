@@ -4,10 +4,9 @@ import java.util.Scanner;
 public class AreaOfCircle5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("enter radius: ");
-        double r = sc.nextDouble();
-        double pie = 3.141592;
-        double area = pie*r*r;
-        System.out.println(area);
+        System.out.print("Enter the radius of the circle : ");
+        double radius = sc.nextDouble();
+        double area = 3.14 * radius* radius;
+        System.out.println("Area of the circle is: " + area);
     }
 }

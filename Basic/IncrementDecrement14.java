@@ -8,6 +8,8 @@ public class IncrementDecrement14 {
 
         int y= x++;
         System.out.println(x+ " " + y);
+        int Z= ++x;
+        System.out.println(x+ " " + Z);
 
     }
 }

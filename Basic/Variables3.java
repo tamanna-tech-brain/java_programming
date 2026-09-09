@@ -22,5 +22,7 @@ public class Variables3 {
         System.out.println(x);
         x = x / 8;
         System.out.println(x); //values of x are changing
+        x = x % 3;
+        System.out.println(x);
     }
 }
