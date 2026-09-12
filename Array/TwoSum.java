@@ -7,21 +7,24 @@ public class TwoSum {
         int n = sc.nextInt();
         System.out.print("Elements of array i: ");
         int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
+        int i =0;
+        for (i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
         System.out.print("Value of x: ");
         int x = sc.nextInt();
+        int j=0;
         boolean flag =  false;
-        for (int i = 0; i < n; i++) {
-            for(int j=i+1; j<n; j++ ){
-               if(arr[i]+ arr[j] == x)
-               System.out.println("true on nums"+ arr[i]+"+"+arr[j]+"="+ x);
-               System.out.println("true on indexs "+ i+" "+j);
-               flag = true;
-               break;
+        outerLoop:
+        for(i =0; i<n; i++){
+            for(j = i+1; j<n; j++){
+                if(arr[i]+arr[j]==x){
+                    flag =true;
+                    break outerLoop;
+                }
             }
-
         }
-        }
+        if(flag) System.out.println("values are :"+ arr[i]+" "+arr[j]);
+        else System.out.println("not found");
+    }
 }

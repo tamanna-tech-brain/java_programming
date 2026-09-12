@@ -16,8 +16,8 @@ public class BasicArray {
         for(int i=0; i<n; i++){
             System.out.print(arr[i] + " ");
         }
-        System.out.println(arr[5]);
-        arr[3] = 10;
-        System.out.println(arr[3]);
+        // System.out.println(arr[5]);
+        // arr[3] = 10;
+        // System.out.println(arr[3]);
     }
 }
