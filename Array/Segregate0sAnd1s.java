@@ -12,8 +12,8 @@ public class Segregate0sAnd1s {
             arr[i] = sc.nextInt();
         }
         int countZero = 0;
-        for (int num : arr) {
-            if (num == 0) {
+        for (int i= 0; i< arr.length; i++) {
+            if (arr[i] == 0) {
                 countZero++;
             }
         }
