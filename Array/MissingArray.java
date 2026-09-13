@@ -6,8 +6,8 @@ public class MissingArray {
         int expectedSum = n * (n + 1) / 2;
         int actualSum = 0;
 
-        for (int num : arr) {
-            actualSum += num;
+        for (int i =0; i<arr.length; i++){
+            actualSum += arr[i];
         }
 
         int missing = expectedSum - actualSum;
