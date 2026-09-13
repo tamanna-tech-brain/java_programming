@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class WaveArray {
@@ -10,6 +11,7 @@ public class WaveArray {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        Arrays.sort(arr);
         for(int i =0; i<arr.length; i+=2){
             if(i==arr.length-1) break;
             int temp = arr[i];

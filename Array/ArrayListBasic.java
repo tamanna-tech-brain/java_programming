@@ -8,19 +8,22 @@ public class ArrayListBasic {
         arr.add(18);
         arr.add(5);
         arr.add(10);
-        System.out.print(arr+ " ");
-        System.out.print(arr.get(2)+ " ");
+        arr.add(19);
+        System.out.println(arr+ " ");
+        System.out.println(arr.get(2)+ " ");
         arr.set(3,50);
-        System.out.print(arr.get(3)+ " ");
-        System.out.print(arr+ " ");
+        System.out.println(arr.get(3)+ " ");
+        System.out.println(arr+ " ");
 
         int n = arr.size();
         for(int i = 0; i<n; i++){
             System.out.print(arr.get(i)+" ");
         }
+        System.out.println();
         for(int ele : arr){
             System.out.print(ele+ " ");
         }
+        System.out.println();
         arr.add(78) ; // 25 21 18 50 10 75 
         arr.add(1,100);
         System.out.println(arr + " ");
