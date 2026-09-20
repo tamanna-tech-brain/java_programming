@@ -1,0 +1,22 @@
+package Question;
+
+import java.util.Scanner;
+
+public class Q43 {
+    public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int T= sc.nextInt();
+		for(int i =0; i<T; i++){
+		    int N = sc.nextInt();
+		    if(N<=50){
+		        System.out.println("LEFT");
+		    }
+		    else{
+		        System.out.println("RIGHT");
+		    }
+		}
+
+	}
+}
