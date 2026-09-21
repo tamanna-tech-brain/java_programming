@@ -1,3 +1,4 @@
+package Question;
 import java.util.Scanner;
 
 class LeftRightShift{

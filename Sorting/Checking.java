@@ -4,6 +4,6 @@ public class Checking  {
       for(int i =0; i<arr.length-1; i++){
         if(arr[i] > arr[i+1]) System.out.print("false");;
       }
-      System.out.print("true");;
+      System.out.print("true");
     }
 }
