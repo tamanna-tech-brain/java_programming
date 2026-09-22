@@ -2,7 +2,7 @@ package Question;
 
 import java.util.Scanner;
 
-public class Q55 {
+public class Q56 {
     public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
@@ -13,9 +13,7 @@ public class Q55 {
 		    int Y = sc.nextInt();
 		    int Z = 2*Y;
 		        System.out.println(X/Z);
-	
-                
-            }
+		    }
 
 	}
 }
