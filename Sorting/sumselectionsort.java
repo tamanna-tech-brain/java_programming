@@ -8,7 +8,7 @@ public class sumselectionsort {
         boolean found = false;
         int i =0, j=arr.length-1;
         while(i<j){
-               if(arr[j]+arr[j]==tag) {
+               if(arr[i]+arr[j]==tag) {
                found = true;
                break;
                }
