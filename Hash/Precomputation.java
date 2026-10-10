@@ -12,15 +12,14 @@ public class Precomputation {
         for(int i =0; i<n; i++){
             arr[i] = sc.nextInt();
         }
-        int max = 10005;
-        int[] hash = new int[max];
+        int[] hash = new int[13];
         for(int i=0; i<n-1; i++){
             hash[arr[i]] += 1;
         }
         System.out.print("num of q: " + " ");
         int q= sc.nextInt();
         System.out.print("val og q"+ " ");
-        while(q-->0){
+        while(q--){
             int number;
             number =  sc.nextInt();
                 System.out.print(hash[number] + " ");
