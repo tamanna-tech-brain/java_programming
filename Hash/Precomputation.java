@@ -19,7 +19,7 @@ public class Precomputation {
         System.out.print("num of q: " + " ");
         int q= sc.nextInt();
         System.out.print("val og q"+ " ");
-        while(q--){
+        while(q-->0){
             int number;
             number =  sc.nextInt();
                 System.out.print(hash[number] + " ");
