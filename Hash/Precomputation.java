@@ -1,7 +1,5 @@
 package Hash;
-
 import java.util.Scanner;
-
 public class Precomputation {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -23,7 +21,6 @@ public class Precomputation {
             int number;
             number =  sc.nextInt();
                 System.out.print(hash[number] + " ");
-
     }
 }
 }
