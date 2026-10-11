@@ -9,14 +9,14 @@ public class Char {
         String s = sc.next();
         int[] hash = new int[256];
         for(int i=0; i<s.length(); i++){
-            hash[s.charAt(i)-'a']++;
+            hash[s.charAt(i)]++;
         }
         System.out.print("num of q: " + " ");
         int q= sc.nextInt();
         System.out.print("val og q"+ " ");
         while(q-->0){
             char c  =  sc.next().charAt(0);
-                System.out.print(hash[c-'a'] + " ");
+                System.out.print(hash[c] + " ");
 
     }
 }
