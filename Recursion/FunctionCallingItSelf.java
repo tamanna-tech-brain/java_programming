@@ -1,5 +1,4 @@
 package Recursion;
-
 public class FunctionCallingItSelf {
     public static void main(String[] args){
         print(5);
