@@ -1,4 +1,4 @@
-package Striver_pattern;
+package Practise.Striver_pattern;
 
 import java.util.Scanner;
 
@@ -30,5 +30,6 @@ public class Butterfly {
             System.out.print("*");
         }
         System.out.println();
-      }}
+    }
+    }
 }
